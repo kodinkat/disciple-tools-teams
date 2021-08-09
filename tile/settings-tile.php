@@ -2,7 +2,7 @@
 if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
 
 /**
- * Class Disciple_Tools_Plugin_Starter_Template_Settings_Tile
+ * Class Disciple_Tools_Teams_Settings_Tile
  *
  * This class will add navigation and a custom section to the Settings page in Disciple Tools.
  * The dt_profile_settings_page_menu function adds a navigation link to the bottom of the nav section in Settings.
@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
  * @see /rest-api/ in this plugin for a custom REST endpoint
  */
 
-class Disciple_Tools_Plugin_Starter_Template_Settings_Tile
+class Disciple_Tools_Teams_Settings_Tile
 {
     private static $_instance = null;
     public static function instance() {
@@ -40,7 +40,7 @@ class Disciple_Tools_Plugin_Starter_Template_Settings_Tile
      */
     public function dt_profile_settings_page_menu( $dt_user, $dt_user_meta, $dt_user_contact_id, $contact_fields ) {
         ?>
-        <li><a href="#disciple_tools_plugin_starter_template_settings_id"><?php esc_html_e( 'Custom Settings Section', 'disciple_tools' )?></a></li>
+        <li><a href="#disciple_tools_teams_settings_id"><?php esc_html_e( 'Custom Settings Section', 'disciple_tools' )?></a></li>
         <?php
     }
 
@@ -54,8 +54,8 @@ class Disciple_Tools_Plugin_Starter_Template_Settings_Tile
      */
     public function dt_profile_settings_page_sections( $dt_user, $dt_user_meta, $dt_user_contact_id, $contact_fields ) {
         ?>
-        <div class="cell bordered-box" id="disciple_tools_plugin_starter_template_settings_id" data-magellan-target="disciple_tools_plugin_starter_template_settings_id">
-            <button class="help-button float-right" data-section="disciple-tools-plugin-starter-template-help-text">
+        <div class="cell bordered-box" id="disciple_tools_teams_settings_id" data-magellan-target="disciple_tools_teams_settings_id">
+            <button class="help-button float-right" data-section="disciple-tools-teams-help-text">
                 <img class="help-icon" src="<?php echo esc_html( get_template_directory_uri() . '/dt-assets/images/help.svg' ) ?>"/>
             </button>
             <span class="section-header"><?php esc_html_e( 'Custom Settings Section', 'disciple_tools' )?></span>
@@ -73,7 +73,7 @@ class Disciple_Tools_Plugin_Starter_Template_Settings_Tile
      */
     public function dt_modal_help_text(){
         ?>
-        <div class="help-section" id="disciple-tools-plugin-starter-template-help-text" style="display: none">
+        <div class="help-section" id="disciple-tools-teams-help-text" style="display: none">
             <h3><?php echo esc_html_x( "Custom Settings Section", 'Optional Documentation', 'disciple_tools' ) ?></h3>
             <p><?php echo esc_html_x( "Add your own help information into this modal.", 'Optional Documentation', 'disciple_tools' ) ?></p>
         </div>
@@ -81,4 +81,4 @@ class Disciple_Tools_Plugin_Starter_Template_Settings_Tile
     }
 }
 
-Disciple_Tools_Plugin_Starter_Template_Settings_Tile::instance();
+Disciple_Tools_Teams_Settings_Tile::instance();
