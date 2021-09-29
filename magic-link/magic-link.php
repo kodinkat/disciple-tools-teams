@@ -1,9 +1,9 @@
 <?php
 if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
 
-Disciple_Tools_Plugin_Starter_Template_Magic_Link::instance();
+Disciple_Tools_Teams_Magic_Link::instance();
 
-class Disciple_Tools_Plugin_Starter_Template_Magic_Link extends DT_Magic_Url_Base {
+class Disciple_Tools_Teams_Magic_Link extends DT_Magic_Url_Base {
 
 
     public $magic = false;
@@ -11,7 +11,7 @@ class Disciple_Tools_Plugin_Starter_Template_Magic_Link extends DT_Magic_Url_Bas
     public $page_title = 'Magic';
     public $root = "magic_app"; // @todo define the root of the url {yoursite}/root/type/key/action
     public $type = 'magic_type'; // @todo define the type
-    public $post_type = 'starter_post_type'; // @todo set the post type this magic link connects with.
+    public $post_type = 'teams'; // @todo set the post type this magic link connects with.
     private $meta_key = '';
 
     private static $_instance = null;

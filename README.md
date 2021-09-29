@@ -1,30 +1,25 @@
-[![Build Status](https://travis-ci.com/DiscipleTools/disciple-tools-plugin-starter-template.svg?branch=master)](https://travis-ci.com/DiscipleTools/disciple-tools-plugin-starter-template)
+[![Build Status](https://travis-ci.com/kodinkat/disciple-tools-teams.svg?branch=master)](https://travis-ci.com/kodinkat/disciple-tools-teams)
 
-# Disciple Tools - Name
+# Disciple Tools - Teams
 
-Description Description Description Description Description Description Description
-Description Description Description Description Description Description Description
+Manage Disciple Tools group teams custom filters between team members.
 
 ## Purpose
 
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
-
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
+This plugin enables you to manage the assignment of custom filters across team members.
 
 ## Usage
 
 #### Will Do
 
-- Item
-- Item
-- Item
+- Add new group teams.
+- Add/Remove team members.
+- Add/Remove custom filters across team members.
+- Update team meta-information.
 
 #### Will Not Do
 
-- Item
-- Item
+- Does not enable the management of any other group team based functionality beyond custom filter management.
 
 ## Requirements
 
@@ -38,13 +33,8 @@ Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose 
 ## Contribution
 
 Contributions welcome. You can report issues and bugs in the
-[Issues](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/issues) section of the repo. You can present ideas
-in the [Discussions](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/discussions) section of the repo. And
-code contributions are welcome using the [Pull Request](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/pulls)
+[Issues](https://github.com/kodinkat/disciple-tools-teams/issues) section of the repo. You can present ideas
+in the [Discussions](https://github.com/kodinkat/disciple-tools-teams/discussions) section of the repo. And
+code contributions are welcome using the [Pull Request](https://github.com/kodinkat/disciple-tools-teams/pulls)
 system for git. For a more details on contribution see the
-[contribution guidelines](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/blob/master/CONTRIBUTING.md).
-
-
-## Screenshots
-
-![screenshot](documentation/community/starter-banners/banner-blue-green.png)
+[contribution guidelines](https://github.com/kodinkat/disciple-tools-teams/blob/master/CONTRIBUTING.md).
